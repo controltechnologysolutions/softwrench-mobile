@@ -1,0 +1,20 @@
+# Local-only VS/Re#/etc files
+*.suo
+*.user
+*.gpState
+_ReSharper.*
+.*.swp
+/Auth.targets
+.DS_Store
+Thumbs.db
+
+# Build outputs
+bin
+obj
+/Releases
+/tmp
+TestResults
+
+# 3rd-party stuff copied during build
+/packages
+GitTfs/git2.*
